@@ -1,0 +1,83 @@
+body{
+   background-image: url(Images/Background.jpg);
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-position: center;
+   background-size: cover;
+
+margin: 10px
+}
+
+#floatingbox{
+    width: 250px;
+    height: 110px;
+    background: thistle;
+    font-size: 80px;
+    text-align: center;
+    text-shadow: 6px 6px 7px white;
+
+    border: 5px solid;
+    border-radius: 7px;
+
+    animation: myColorchange;
+    animation-iteration-count: infinite;
+    animation-duration: 1s;
+
+    float:right
+}
+@keyframes myRotate{
+    50%{transform: scale(0.5,0.5);}
+}
+@keyframes myColorchange{
+    0%{background-color: thistle;}
+    50%{background-color: white;}
+}
+
+h1{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style:italic;
+    text-shadow: 5px 5px 10px white;
+}
+
+h2{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;   
+}
+
+#logo{
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+}
+
+#box1{
+    border: 5px solid;
+    background:linear-gradient(to right,thistle,white);
+    padding: 5px;
+    
+}
+
+#box2{
+    border: 5px solid;
+    background:linear-gradient(to right,thistle,white);
+    padding: 5px;
+}
+
+#box3{
+    border: 5px solid;
+    background:linear-gradient(to right,thistle,white);
+    padding: 15px;
+}
+
+a.link{
+    color:plum
+}
+
+#officalaccount{
+    background:linear-gradient(to left,thistle,white);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+button{
+    background:linear-gradient(to right,thistle,white);
+}
