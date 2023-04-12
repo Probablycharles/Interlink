@@ -9,14 +9,24 @@ margin: 10px
 }
 
 a:link{
-    color:blueviolet
+    color:purple
 }
 a :visited{
-    color:blueviolet
+    color:pink
 }
 a:hover{
+    color:thistle
+}
+a:active{
     color:aliceblue
 }
+button:hover{
+    background-color: thistle;
+}
+button:active{
+    background-color: aliceblue;
+}
+
 
 #floatingbox{
     width: 250px;
